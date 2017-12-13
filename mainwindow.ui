@@ -114,8 +114,17 @@
      <string>Table</string>
     </property>
    </widget>
+   <widget class="QMenu" name="menuXML_Parser">
+    <property name="title">
+     <string>XML Parser</string>
+    </property>
+    <addaction name="actionBatch_Editor"/>
+    <addaction name="actionCSV_Generator"/>
+    <addaction name="actionCapitalizer"/>
+   </widget>
    <addaction name="menuDatabase"/>
    <addaction name="menuTable"/>
+   <addaction name="menuXML_Parser"/>
   </widget>
   <action name="actionFile">
    <property name="text">
@@ -140,6 +149,24 @@
   <action name="actionOpen">
    <property name="text">
     <string>Open</string>
+   </property>
+  </action>
+  <action name="actionBatch_Editor">
+   <property name="text">
+    <string>Batch Editor</string>
+   </property>
+   <property name="toolTip">
+    <string>A tool for editing batches of files</string>
+   </property>
+  </action>
+  <action name="actionCSV_Generator">
+   <property name="text">
+    <string>CSV Generator</string>
+   </property>
+  </action>
+  <action name="actionCapitalizer">
+   <property name="text">
+    <string>Capitalizer</string>
    </property>
   </action>
  </widget>

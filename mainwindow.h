@@ -25,6 +25,14 @@ private slots:
 
     void on_actionOpen_Recent_triggered();
 
+    void on_actionBatch_Editor_triggered();
+
+    //void on_batchEditor_Run(const QString &find, const QString &replace, bool generateCsv);
+
+    void on_actionCSV_Generator_triggered();
+
+    void on_actionCapitalizer_triggered();
+
 private:
     Ui::MainWindow *ui;
     QSqlDatabase db;
